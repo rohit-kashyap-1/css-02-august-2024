@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+        }
+        .container{
+            width: 100%;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+        .item {
+            overflow: hidden;
+        }
+        .item img{
+            width: 100%;
+            transition: 300ms;
+            /* filter: blur(2px); */
+        }
+        .item img:hover{
+            transform: scale(1.5);
+            filter: blur(0);
+        }
+        .item:hover img{
+            filter: blur(0) !important;
+        }
+        .container:hover img{
+            filter: blur(3px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            <img src="https://dummyimage.com/300x200/2c2c2c/ffffff&text=GALLERY+IMAGE">
+        </div>
+        <div class="item">
+            <img src="https://dummyimage.com/300x200/2c2c2c/ffffff&text=GALLERY+IMAGE">
+        </div>
+        <div class="item">
+            <img src="https://dummyimage.com/300x200/2c2c2c/ffffff&text=GALLERY+IMAGE">
+        </div>
+        <div class="item">
+            <img src="https://dummyimage.com/300x200/2c2c2c/ffffff&text=GALLERY+IMAGE">
+        </div>
+        <div class="item">
+            <img src="https://dummyimage.com/300x200/2c2c2c/ffffff&text=GALLERY+IMAGE">
+        </div>
+        <div class="item">
+            <img src="https://dummyimage.com/300x200/2c2c2c/ffffff&text=GALLERY+IMAGE">
+        </div>
+        <div class="item">
+            <img src="https://dummyimage.com/300x200/2c2c2c/ffffff&text=GALLERY+IMAGE">
+        </div>
+        <div class="item">
+            <img src="https://dummyimage.com/300x200/2c2c2c/ffffff&text=GALLERY+IMAGE">
+        </div>
+        <div class="item">
+            <img src="https://dummyimage.com/300x200/2c2c2c/ffffff&text=GALLERY+IMAGE">
+        </div>
+        <div class="item">
+            <img src="https://dummyimage.com/300x200/2c2c2c/ffffff&text=GALLERY+IMAGE">
+        </div>
+        <div class="item">
+            <img src="https://dummyimage.com/300x200/2c2c2c/ffffff&text=GALLERY+IMAGE">
+        </div>
+        <div class="item">
+            <img src="https://dummyimage.com/300x200/2c2c2c/ffffff&text=GALLERY+IMAGE">
+        </div>
+        <div class="item">
+            <img src="https://dummyimage.com/300x200/2c2c2c/ffffff&text=GALLERY+IMAGE">
+        </div>
+        <div class="item">
+            <img src="https://dummyimage.com/300x200/2c2c2c/ffffff&text=GALLERY+IMAGE">
+        </div>
+        <div class="item">
+            <img src="https://dummyimage.com/300x200/2c2c2c/ffffff&text=GALLERY+IMAGE">
+        </div>
+        <div class="item">
+            <img src="https://dummyimage.com/300x200/2c2c2c/ffffff&text=GALLERY+IMAGE">
+        </div>
+        <div class="item">
+            <img src="https://dummyimage.com/300x200/2c2c2c/ffffff&text=GALLERY+IMAGE">
+        </div>
+        <div class="item">
+            <img src="https://dummyimage.com/300x200/2c2c2c/ffffff&text=GALLERY+IMAGE">
+        </div>
+    </div>
+</body>
+</html>
